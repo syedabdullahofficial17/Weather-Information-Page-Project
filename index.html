@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Weather Information</h1>
+        <p>Your go-to source for current weather updates</p>
+    </header>
+
+    <main class="main-content">
+        <section class="search-section">
+            <input type="text" id="cityInput" class="search-input" placeholder="Enter city name">
+            <button id="searchButton" class="search-button">Search</button>
+            
+        </section>
+
+        <section class="weather-display">
+            <div class="weather-card">
+                <h2 id="cityName">City Name</h2>
+                <p id="temperature">Temperature: -- &#8451;</p>
+                <p id="description">Condition: --</p>
+                <p id="humidity">Humidity: --%</p>
+                <p id="windSpeed">Wind Speed: -- km/h</p>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Weather Information. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
